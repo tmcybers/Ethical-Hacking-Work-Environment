@@ -1,4 +1,10 @@
 # ETHICAL-HACKER-WORK-ENVIRONMENT-V2-2022
+![escritorio](https://user-images.githubusercontent.com/97669969/154135658-14dbc059-6d51-431a-8be9-abae4d4b1dbd.jpg)
+![escritorio principal](https://user-images.githubusercontent.com/97669969/154135668-40fbe59e-060f-4f59-81ef-88f8f543fcde.jpg)
+![rofi](https://user-images.githubusercontent.com/97669969/154135680-d692ff29-1033-4e3b-ad8f-b23f578a2bde.jpg)
+![win s](https://user-images.githubusercontent.com/97669969/154135687-840f0247-0c8c-46ca-b1bd-f633c98db218.jpg)
+![lsdbatranger](https://user-images.githubusercontent.com/97669969/154135696-80cc23de-aca6-4eeb-87fe-0e21300441e1.jpg)
+![brave](https://user-images.githubusercontent.com/97669969/154135723-0d596034-a27c-4a36-bf1e-1c80e5b8050c.jpg)
 
 En primer lugar instalate estas librerias :
 
