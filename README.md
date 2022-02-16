@@ -58,7 +58,7 @@
 ```bash
 # sudo apt install bspwm   
 # cd ~/Downloads
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/baskerville/bspwm.git
 # cd bspwm
 $ make
 $ sudo make install
