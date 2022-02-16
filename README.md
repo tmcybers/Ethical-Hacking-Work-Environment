@@ -6,39 +6,40 @@
 ![lsdbatranger](https://user-images.githubusercontent.com/97669969/154135696-80cc23de-aca6-4eeb-87fe-0e21300441e1.jpg)
 ![brave](https://user-images.githubusercontent.com/97669969/154135723-0d596034-a27c-4a36-bf1e-1c80e5b8050c.jpg)
 
-En primer lugar instalate estas librerias :
+#En primer lugar instalate estas librerias :
 
-  sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
+  >sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
 
-  sudo apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+  >sudo apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
 
-  sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
+  >sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
 
-  sudo apt install bison flex libstartup-notification0-dev check autotools-dev libpango1.0-dev librsvg2-bin librsvg2-dev libcairo2-dev libglib2.0-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
+  >sudo apt install bison flex libstartup-notification0-dev check autotools-dev libpango1.0-dev librsvg2-bin librsvg2-dev libcairo2-dev libglib2.0-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
 
- sudo apt install slim libpam0g-dev libxrandr-dev libfreetype6-dev libimlib2-dev libxft-dev
- sudo dpkg-reconfigure gdm3 #select slim
+ >sudo apt install slim libpam0g-dev libxrandr-dev libfreetype6-dev libimlib2-dev libxft-dev
+ 
 
- Vamos a proceder con la instalacion, todo lo vamos a hacer sobre la carpeta cd ~/Downloads o ~/Descargas :
+ #Vamos a proceder con la instalacion, todo lo vamos a hacer sobre la carpeta cd ~/Downloads o ~/Descargas :
 
-sudo apt update
-sudo apt update
-sudo parrot-upgrade   (solo si estas en parrot)
+-sudo apt update
+-sudo apt update
+-sudo parrot-upgrade   
+  -(solo si estas en parrot)
 
-Instalamos bspwm :
+#Instalamos bspwm :
 
-sudo apt install bspwm   (en dir /HOME)
-cd ~/Downloads
-git clone https://github.com/baskerville/bspwm.git
-cd bspwm
-  make
-  sudo make install
-Copy/mkdir toda la conf. a sus correspondientes carpetas:
+-sudo apt install bspwm   (en dir /HOME)
+-cd ~/Downloads
+-git clone https://github.com/baskerville/bspwm.git
+-cd bspwm
+  -make
+  -sudo make install
+  -Copy/mkdir toda la conf. a sus correspondientes carpetas:
 
-  mkdir ~/.config/bspwm
-  cp examples/bspwmrc ~/.config/bspwm
-  chmod +x ~/.config/bspwm/bspwmrc
-  cd ..
+  -mkdir ~/.config/bspwm
+  -cp examples/bspwmrc ~/.config/bspwm
+  -chmod +x ~/.config/bspwm/bspwmrc
+  -cd ..
 
 ABRE : vim o nano ~/.config/bspwm/bspwmrc   (ESTE ES EL CEREBRO,NUESTRO GESTOR,RECUERDA ESTE DIRECTORIO)
 
