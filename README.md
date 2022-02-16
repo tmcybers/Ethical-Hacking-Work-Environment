@@ -367,7 +367,7 @@ $ https://github.com/Peltoche/lsd/releases
 ```bash
 $ https://github.com/sharkdp/bat/releases
 ```
-    #cat vs Bat (prueba y veras)
+    #cat vs bat (prueba y veras)
     
 
 # Ire actualizando el repo semanal o mensual segun añade mas configs y modulos ~! 
