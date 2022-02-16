@@ -359,6 +359,7 @@ Nano/Vim abres bspwmrc y pegas esto :
 ```bash
 $ https://github.com/Peltoche/lsd/releases
 ```
+      #ls vs lsd -l (prueba y veras)
 
 
 # Instalamos Bat
@@ -366,7 +367,7 @@ $ https://github.com/Peltoche/lsd/releases
 ```bash
 $ https://github.com/sharkdp/bat/releases
 ```
-
+    #cat vs Bat (prueba y veras)
     
 
 # Ire actualizando el repo semanal o mensual segun añade mas configs y modulos ~! 
