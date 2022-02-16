@@ -193,7 +193,7 @@ sudo apt install feh
 cd ~ /.config/bspwm/bspwmrc 
  ```
 
-# Añades esto detro : 
+# Añades esto dentro : 
 
 ```bash
 feh --bg-fill /home/tmcyber/images/fondo.jpg  
