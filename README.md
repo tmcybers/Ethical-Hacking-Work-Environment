@@ -369,7 +369,7 @@ $ https://github.com/sharkdp/bat/releases
 
     
 
-# Ire actualizando el repo semanal o mensual seguna añade mas configs y modulos ~! 
+# Ire actualizando el repo semanal o mensual segun añade mas configs y modulos ~! 
 
  ## !~HackMODE On~!
 #TMCYber 
