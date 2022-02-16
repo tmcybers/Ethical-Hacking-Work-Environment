@@ -73,9 +73,11 @@ $ sudo make install
 ```
 
 # ESTE ES EL CEREBRO, NUESTRO GESTOR, RECUERDA ESTE DIRECTORIO.
+
 * ~/.config/bspwm/bspwmrc
   
 # Instalamos sxhkd:
+
 ```bash
 # cd Downloads
 $ git clone https://github.com/baskerville/sxhkd.git
@@ -83,20 +85,22 @@ $ git clone https://github.com/baskerville/sxhkd.git
   # make
   # sudo make install
 ```
-# Copiamos toda la .config a sus correspondientes dir:
+
+# Copiamos toda la .config a sus correspondientes dir
+
 ```bash
 $ mkdir ~/.config/sxhkd
 # cp ~/Downloads/bspwm/examples/sxhkdrc ~/.config/sxhkd
 # cd ..
 ```
 
-# abre con  nano/vim etc   
+# abre con nano/vim    
 
 ```bash
  $ nano ~/.config/sxhkd/sxhkdrc 
 ```
 
-# Configura tus shortcuts y recuerdalos, escribelos en algun sitio, por ex uno importante es abrir tu terminal gnome, alacritty..etc :
+# Configura tus shortcuts y recuerdalos, escribelos en algun sitio, por ex uno importante es abrir tu terminal gnome, alacritty, etc.
 
 ```bash
 # terminal emulator
@@ -125,7 +129,7 @@ $ git clone --recursive https://github.com/polybar/polybar
 
 # Ahora estamos listos para reiniciar en bspwm , fijate en la pantalla de reinicio y elegir bien bspwm , porque por defecto viene tambien i3 (otro gestor de ventanas)
 * No te asustes por la pantalla negra, por arriba veras la polybar (algunas veces se instala por defecto la vieja polybar/release), si configuraste bien los shortcuts,
-   con WIN+RETURN tecla de windows seria ENTER , iniciamos nustra terminal gnome, alacritty.etc.
+   con WIN+RETURN tecla de windows seria ENTER , iniciamos nuestra terminal gnome, alacritty.etc.
 
 
 # Instalamos el tema de polybar 
@@ -139,7 +143,7 @@ $ git clone https://github.com/VaughnValle/blue-sky.git
 
 ```bash
 # mkdir ~/.config/polybar
-# cd ~/Descargas/blue-sky/polybar/
+# cd ~/Downloads/blue-sky/polybar/
 # cp * -r ~/.config/polybar
 # echo '~/.config/polybar/./launch.sh' >> ~/.config/bspwm/bspwmrc 
 # cd fonts
@@ -216,7 +220,7 @@ $ git clone https://github.com/ibhagwan/picom.git
     # nano o vim abres picom.conf y en mi caso , decomente glx" y comente # “xrender , ”glx tira de grafica entonces es eleccion tuya si queres dejarlo , en mi caso no (todo de glx fuera,comentado)
     # tambien decomente todo lo relacionado con blurring en las ventanas, si a ti te gusta puedes dejarlo ,,pero gasta recursos.
 
-# WIN+AL+R reseteamos todo el gestor, y se deberia aplicar transparencia, en algunos casos suele tardar, paciencia, o si no has sudo reboot y listo.
+# WIN+AL+R reseteamos todo el gestor, y se deberia aplicar transparencia, en algunos casos suele tardar, paciencia, o si no sudo reboot y listo.
 
 
 # Instalamos Powerlevel10k 
@@ -239,10 +243,10 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 # Instalamos Brave Browser
   
-  #brave es muy seguro 
-  #rastreadores y bloqueadores incorporados 
-  #no hace falta agregar extensiones como adblocker o parecidas
-  #en recursos de sistema tiene muy bajo consumo, menos que firefox.
+  # brave es muy seguro 
+  # rastreadores y bloqueadores incorporados 
+  # no hace falta agregar extensiones como adblocker o parecidas
+  # en recursos de sistema tiene muy bajo consumo, menos que firefox.
 
 ```bash
 # sudo apt install apt-transport-https curl
@@ -315,7 +319,7 @@ modules-center = ip_status
 wm-restack = bspwm
 ```
 
-  # Ahora te diriges al final de todo ,,,y pegas esto :
+  # Ahora te diriges al final de todo, y pegas esto :
 
 ```bashh
 [module/ip_status]
@@ -347,7 +351,7 @@ Nano/Vim abres bspwmrc y pegas esto :
 # sudo apt install ranger
 # ranger 
 ```
-    # en tu terminal (    veras la diferencia)
+    # en tu terminal (veras la diferencia)
 
 
 # Instalamos Lsd
