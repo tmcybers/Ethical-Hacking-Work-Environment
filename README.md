@@ -375,4 +375,11 @@ $ https://github.com/sharkdp/bat/releases
  ## !~HackMODE On~!
 #TMCYber 
 
+### If this project help you reduce time to develop, you can give me a cup of coffee :)
 
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E1EBFQ3)
+
+
+
+<a href="https://www.buymeacoffee.com/tonymerisan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
